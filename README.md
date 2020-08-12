@@ -1,6 +1,6 @@
 # Simple Cors
 
-You should only use this if you are not using any authentication / authorization mechanism.
+You should only use this if you are not using any authentication / authorization mechanisms.
 
 ## Usage Example
 
@@ -19,6 +19,15 @@ app.get('/', (req: any, res: any) => {
      
 ```
 
+## Execute Usage Example
+
+```
+  
+    
+deno run --allow-read --allow-net https://deno.land/x/simple-cors/usage-example.ts
+  
+
+```
 
 ## Support my Open Source Contributions  
 

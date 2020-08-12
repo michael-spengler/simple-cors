@@ -1,4 +1,4 @@
-import { simpleCors } from "https://deno.land/x/simple-cors/simple-cors.ts";
+import { simpleCors } from "https://deno.land/x/simplecors/simple-cors.ts";
 import { opine} from "https://deno.land/x/opine/mod.ts";
 
 const app = opine();

@@ -6,7 +6,7 @@ You should only use this if you are not using any authentication / authorization
 
 ```
   
-import { simpleCors } from "https://deno.land/x/simple-cors/simple-cors.ts";
+import { simpleCors } from "https://deno.land/x/simplecors/simple-cors.ts";
 import { opine} from "https://deno.land/x/opine/mod.ts";
 
 const app = opine();
@@ -24,7 +24,7 @@ app.get('/', (req: any, res: any) => {
 ```
   
     
-deno run --allow-read --allow-net https://deno.land/x/simple-cors/usage-example.ts
+deno run --allow-read --allow-net https://deno.land/x/simplecors/usage-example.ts
   
 
 ```

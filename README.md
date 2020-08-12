@@ -1,6 +1,6 @@
 # Simple Cors
 
-You should only use this if you are not using any authentication / authorization mechanism
+You should only use this if you are not using any authentication / authorization mechanism.
 
 ## Usage Example
 
